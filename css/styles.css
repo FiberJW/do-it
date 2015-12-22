@@ -9,7 +9,8 @@ html {
   background: url(../img/shia.jpg) no-repeat center center fixed;
   background-size: cover;
   position: relative;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
 
 #main {
   position: absolute;
