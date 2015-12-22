@@ -1,0 +1,25 @@
+{
+  "name": "do-it",
+  "version": "1.0.0",
+  "description": "Don't let your dreams be dreams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datwheat/do-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datwheat/do-it/issues"
+  },
+  "homepage": "https://github.com/datwheat/do-it#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-sass": "^2.1.1"
+  }
+}
