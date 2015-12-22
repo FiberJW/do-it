@@ -12,14 +12,6 @@ html {
   height: 100vh;
   overflow: hidden; }
 
-#main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
-
 .motivation {
   color: white;
   font-family: 'Norwester', 'PT Sans', sans-serif, serif;
@@ -28,6 +20,12 @@ html {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.4;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
   display: block;
   letter-spacing: .75rem; }
 
@@ -45,7 +43,7 @@ html {
   font-size: 1.5rem;
   background-color: transparent;
   color: #333;
-  margin-top: 10%;
+  bottom: 10%;
   letter-spacing: .55rem;
   display: block;
   padding: 20px 20px 20px 20px;
